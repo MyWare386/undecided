@@ -16,9 +16,11 @@
 <body>
 
   <header>
-    <center>
-      <a href="index.php"><img src="images/banniere.png" style="width:20%;" /></a>
-    </center>
+    <div id="image_logo">
+      <a href="index.php"><img src="images/banniere.png" style="width:50%"/></a>
+      <br />
+      <a href="#info">Click here</a>
+    </div>
   </header>
 
   <section id="info">
