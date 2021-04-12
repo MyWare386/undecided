@@ -2,7 +2,6 @@
   background-color: black;
   color: #fffd47;
   font-family: monospace;
-  font-size: 30px;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -24,4 +23,16 @@ a:hover{
   text-align: center;
   display: table-cell;
   vertical-align: middle;
+}
+
+.benefits{
+  color: green;
+  font-family: 'Fascinate', fantasy;
+  font-size: 20px;
+}
+
+.disadvantages{
+  color: red;
+  font-family: 'Fascinate', fantasy;
+  font-size: 20px;
 }
