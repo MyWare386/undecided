@@ -19,7 +19,6 @@
     <div id="image_logo">
       <a href="index.php"><img src="images/banniere.png" style="width:50%"/></a>
       <br />
-      <a href="#info">Click here</a>
     </div>
   </header>
 
@@ -35,15 +34,72 @@
 
   <section id="choices">
 
-    <div class="choice">
+    <center>
+
+      <div class="choice" id="choice1">
+
+        <h1>First choice</h1>
+
+        <p class="benefits">Benefits</p>
+
+        <form method="post">
+          <textarea name="text" placeholder="">You </textarea><br />
+          <input type="range" name="points" min="1" max="10"><br />
+          <input type="submit" name="submit1benefits"/><br />
+        </form>
+
+        <br />
+
+        <p class="disadvantages">Disadvantages</p>
+
+        <form method="post">
+          <textarea name="text" placeholder="">You </textarea><br />
+          <input type="range" name="points" min="1" max="10"><br />
+          <input type="submit" name="submit1disadvantages"/><br />
+        </form>
+
+        <!-- <?php
+
+        if(isset($_POST['formsubmit'])){
+        extract($_POST);
+
+        echo $_POST['text'];
+        echo $_POST['points'];
+      };
+
+      ?> -->
 
     </div>
 
-    <div class="choice">
+    <br />
+    <br />
+    <br />
+
+    <div class="choice" id="choice2">
+
+      <h1>Second choice</h1>
+
+      <p class="benefits">Benefits</p>
+
+      <form method="post">
+        <textarea name="text" placeholder="">You </textarea>
+        <input type="range" name="points" min="1" max="10">
+        <input type="submit" name="submit1benefits"/>
+      </form>
+
+      <p class="disadvantages">Disadvantages</p>
+
+      <form method="post">
+        <textarea name="text" placeholder="">You </textarea>
+        <input type="range" name="points" min="1" max="10">
+        <input type="submit" name="submit1disadvantages"/>
+      </form>
 
     </div>
 
-  </section>
+  </center>
+
+</section>
 
 </body>
 </html>
