@@ -19,20 +19,57 @@ a:hover{
 
 /*------------------------------------------------------------------------------------------------*/
 
+#home{
+  position: relative;
+  justify-content: center;
+  min-height: 100vh;
+}
+
 #image_logo{
   text-align: center;
   display: table-cell;
   vertical-align: middle;
 }
 
+#choice1{
+  float: left;
+  width: 50%;
+}
+
+#choice2{
+  margin-left: 50%;
+}
+
 .benefits{
   color: green;
   font-family: 'Fascinate', fantasy;
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .disadvantages{
   color: red;
   font-family: 'Fascinate', fantasy;
-  font-size: 20px;
+  font-size: 35px;
+}
+
+input{
+  font-size: 30px;
+  border-radius: 5px;
+  font-family: 'Fascinate', fantasy;
+}
+
+textarea{
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.separation{
+  height: 2px;
+  background-color: #67004D;
+  width: 50%;
+  opacity: 70%;
+}
+
+.footer:hover{
+  color: #67004D;
 }
