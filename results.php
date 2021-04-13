@@ -49,7 +49,7 @@ if(isset($_SESSION['choice1']) and isset($_SESSION['choice2'])){
 
         <center>
 
-          <i><p style="font-size:20px;color:#67004D" class="animate__animated animate__heartBeat animate__repeat-3">You must choose... <?php echo $resultchoice1; echo $resultchoice2; ?></p></i>
+          <i><p style="font-size:20px;color:#67004D" class="animate__animated animate__heartBeat animate__repeat-3">You must choose...</p></i>
 
           <br />
           <br />
