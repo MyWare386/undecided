@@ -54,13 +54,26 @@ a:hover{
 
 input{
   font-size: 30px;
-  border-radius: 5px;
+  border-radius: 10px;
   font-family: 'Fascinate', fantasy;
+  background-color: #1A1D26;
+  border: none;
+}
+
+#ok{
+  font-size: 50px;
+  border-radius: 10px;
+  font-family: 'Fascinate', fantasy;
+  background-color: #1A1D26;
+  border-color: #fffd47;
+  border-style: dashed;
 }
 
 textarea{
   font-size: 25px;
-  border-radius: 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1A1D26;
 }
 
 .separation{
