@@ -89,7 +89,7 @@ include "traitement.php";
           <textarea name="text1b1" placeholder=" a benefit" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
           <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
-          <input type="range" name="points1b1" min="1" max="10"><br />
+          <input type="range" name="points1b1" min="0" max="10" value="0"><br />
 
           <br />
           <br />
@@ -98,7 +98,7 @@ include "traitement.php";
           <textarea name="text1b2" placeholder=" a benefit" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
           <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
-          <input type="range" name="points1b2" min="1" max="10"><br />
+          <input type="range" name="points1b2" min="0" max="10" value="0"><br />
 
           <br />
           <br />
@@ -107,7 +107,7 @@ include "traitement.php";
           <textarea name="text1b3" placeholder=" a benefit" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
           <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
-          <input type="range" name="points1b3" min="1" max="10"><br />
+          <input type="range" name="points1b3" min="0" max="10" value="0"><br />
 
           <br />
           <br />
@@ -121,7 +121,7 @@ include "traitement.php";
           <textarea name="text1d1" placeholder=" a disadvantage" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
           <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
-          <input type="range" name="points1d1" min="1" max="10"><br />
+          <input type="range" name="points1d1" min="0" max="10" value="0"><br />
 
           <br />
           <br />
@@ -130,7 +130,7 @@ include "traitement.php";
           <textarea name="text1d2" placeholder=" a disadvantage" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
           <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
-          <input type="range" name="points1d2" min="1" max="10"><br />
+          <input type="range" name="points1d2" min="0" max="10" value="0"><br />
 
           <br />
           <br />
@@ -139,7 +139,7 @@ include "traitement.php";
           <textarea name="text1d3" placeholder=" a disadvantage" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
           <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
-          <input type="range" name="points1d3" min="1" max="10"><br />
+          <input type="range" name="points1d3" min="0" max="10" value="0"><br />
 
         </div>
 
@@ -160,7 +160,7 @@ include "traitement.php";
           <textarea name="text2b1" placeholder=" a benefit" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
           <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
-          <input type="range" name="points2b1" min="1" max="10"><br />
+          <input type="range" name="points2b1" min="0" max="10" value="0"><br />
 
           <br />
           <br />
@@ -169,7 +169,7 @@ include "traitement.php";
           <textarea name="text2b2" placeholder=" a benefit" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
           <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
-          <input type="range" name="points2b2" min="1" max="10"><br />
+          <input type="range" name="points2b2" min="0" max="10" value="0"><br />
 
           <br />
           <br />
@@ -178,7 +178,7 @@ include "traitement.php";
           <textarea name="text2b3" placeholder=" a benefit" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
           <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
-          <input type="range" name="points2b3" min="1" max="10"><br />
+          <input type="range" name="points2b3" min="0" max="10" value="0"><br />
 
           <br />
           <br />
@@ -192,7 +192,7 @@ include "traitement.php";
           <textarea name="text2d1" placeholder=" a disadvantage" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
           <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
-          <input type="range" name="points2d1" min="1" max="10"><br />
+          <input type="range" name="points2d1" min="0" max="10" value="0"><br />
 
           <br />
           <br />
@@ -201,7 +201,7 @@ include "traitement.php";
           <textarea name="text2d2" placeholder=" a disadvantage" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
           <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
-          <input type="range" name="points2d2" min="1" max="10"><br />
+          <input type="range" name="points2d2" min="0" max="10" value="0"><br />
 
           <br />
           <br />
@@ -211,7 +211,7 @@ include "traitement.php";
 
           <p style="color:white;opacity:50%;">Is it :</p>
           <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
-          <input type="range" name="points2d3" min="1" max="10"><br />
+          <input type="range" name="points2d3" min="0" max="10" value="0"><br />
 
         </div>
 
