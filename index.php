@@ -1,6 +1,6 @@
 <?php
 
-session_start();
+include "traitement.php";
 
 ?>
 
@@ -13,6 +13,7 @@ session_start();
 
   <title>Undecided ?</title>
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/range.css" />
   <link rel="icon" href="images/favicon.png" />
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -75,7 +76,7 @@ session_start();
 
           <br />
 
-          <h1 style="font-size:40px">First option : <input type="text" name="choice1" placeholder="Your first option"/></h1>
+          <h1 style="font-size:40px">First option : <input type="text" name="choice1" placeholder=" Your first option" required/></h1>
 
           <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
@@ -85,27 +86,27 @@ session_start();
 
           <p class="benefits">Benefits :</p>
 
-          <textarea name="text1b1" placeholder="a benefit" rows="3" cols="30"></textarea><br />
+          <textarea name="text1b1" placeholder=" a benefit" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
-          <p style="color:white;opacity:50%;">| weak (1) --- strong (10) |</p>
+          <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
           <input type="range" name="points1b1" min="1" max="10"><br />
 
           <br />
           <br />
           <br />
 
-          <textarea name="text1b2" placeholder="a benefit" rows="3" cols="30"></textarea><br />
+          <textarea name="text1b2" placeholder=" a benefit" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
-          <p style="color:white;opacity:50%;">| weak (1) --- strong (10) |</p>
+          <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
           <input type="range" name="points1b2" min="1" max="10"><br />
 
           <br />
           <br />
           <br />
 
-          <textarea name="text1b3" placeholder="a benefit" rows="3" cols="30"></textarea><br />
+          <textarea name="text1b3" placeholder=" a benefit" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
-          <p style="color:white;opacity:50%;">| weak (1) --- strong (10) |</p>
+          <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
           <input type="range" name="points1b3" min="1" max="10"><br />
 
           <br />
@@ -117,27 +118,27 @@ session_start();
 
           <p class="disadvantages">Disadvantages :</p>
 
-          <textarea name="text1d1" placeholder="a disadvantage" rows="3" cols="30"></textarea><br />
+          <textarea name="text1d1" placeholder=" a disadvantage" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
-          <p style="color:white;opacity:50%;">| weak (1) --- strong (10) |</p>
+          <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
           <input type="range" name="points1d1" min="1" max="10"><br />
 
           <br />
           <br />
           <br />
 
-          <textarea name="text1d2" placeholder="a disadvantage" rows="3" cols="30"></textarea><br />
+          <textarea name="text1d2" placeholder=" a disadvantage" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
-          <p style="color:white;opacity:50%;">| weak (1) --- strong (10) |</p>
+          <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
           <input type="range" name="points1d2" min="1" max="10"><br />
 
           <br />
           <br />
           <br />
 
-          <textarea name="text1d3" placeholder="a disadvantage" rows="3" cols="30"></textarea><br />
+          <textarea name="text1d3" placeholder=" a disadvantage" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
-          <p style="color:white;opacity:50%;">| weak (1) --- strong (10) |</p>
+          <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
           <input type="range" name="points1d3" min="1" max="10"><br />
 
         </div>
@@ -146,7 +147,7 @@ session_start();
 
         <div class="choice" id="choice2">
 
-          <h1 style="font-size:40px">Second option : <input type="text" name="choice2" placeholder="Your second option"/></h1>
+          <h1 style="font-size:40px">Second option : <input type="text" name="choice2" placeholder=" Your second option" required/></h1>
 
           <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
@@ -156,27 +157,27 @@ session_start();
 
           <p class="benefits">Benefits :</p>
 
-          <textarea name="text2b1" placeholder="a benefit" rows="3" cols="30"></textarea><br />
+          <textarea name="text2b1" placeholder=" a benefit" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
-          <p style="color:white;opacity:50%;">| weak (1) --- strong (10) |</p>
+          <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
           <input type="range" name="points2b1" min="1" max="10"><br />
 
           <br />
           <br />
           <br />
 
-          <textarea name="text2b2" placeholder="a benefit" rows="3" cols="30"></textarea><br />
+          <textarea name="text2b2" placeholder=" a benefit" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
-          <p style="color:white;opacity:50%;">| weak (1) --- strong (10) |</p>
+          <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
           <input type="range" name="points2b2" min="1" max="10"><br />
 
           <br />
           <br />
           <br />
 
-          <textarea name="text2b3" placeholder="a benefit" rows="3" cols="30"></textarea><br />
+          <textarea name="text2b3" placeholder=" a benefit" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
-          <p style="color:white;opacity:50%;">| weak (1) --- strong (10) |</p>
+          <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
           <input type="range" name="points2b3" min="1" max="10"><br />
 
           <br />
@@ -188,28 +189,28 @@ session_start();
 
           <p class="disadvantages">Disadvantages :</p>
 
-          <textarea name="text2d1" placeholder="a disadvantage" rows="3" cols="30"></textarea><br />
+          <textarea name="text2d1" placeholder=" a disadvantage" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
-          <p style="color:white;opacity:50%;">| weak (1) --- strong (10) |</p>
+          <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
           <input type="range" name="points2d1" min="1" max="10"><br />
 
           <br />
           <br />
           <br />
 
-
-          <textarea name="text2d2" placeholder="a disadvantage" rows="3" cols="30"></textarea><br />
+          <textarea name="text2d2" placeholder=" a disadvantage" rows="3" cols="30"></textarea><br />
           <p style="color:white;opacity:50%;">Is it :</p>
-          <p style="color:white;opacity:50%;">| weak (1) --- strong (10) |</p>
+          <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
           <input type="range" name="points2d2" min="1" max="10"><br />
 
           <br />
           <br />
           <br />
 
-          <textarea name="text2d3" placeholder="a disadvantage" rows="3" cols="30"></textarea><br />
+          <textarea name="text2d3" placeholder=" a disadvantage" rows="3" cols="30"></textarea><br />
+
           <p style="color:white;opacity:50%;">Is it :</p>
-          <p style="color:white;opacity:50%;">| weak (1) --- strong (10) |</p>
+          <p style="color:white;opacity:50%;">| weak ------------ strong |</p>
           <input type="range" name="points2d3" min="1" max="10"><br />
 
         </div>
@@ -223,59 +224,13 @@ session_start();
         <br />
         <br />
 
-        <input type="submit" name="submit" value="Ok !" style="font-family: 'Fascinate', fantasy;font-size:50px;"/><br />
+        <input type="submit" name="submit" value="Ok !" id="ok" /><br />
 
       </form>
 
       <br />
       <br />
       <br />
-
-      <?php
-
-      if(isset($_POST['submit'])){
-        extract($_POST);
-
-
-        echo $_POST['choice1'];
-
-
-        echo $_POST['text1b1'];
-        echo $_POST['points1b1'];
-        echo $_POST['text1b2'];
-        echo $_POST['points1b2'];
-        echo $_POST['text1b3'];
-        echo $_POST['points1b3'];
-
-        echo $_POST['text1d1'];
-        echo $_POST['points1d1'];
-        echo $_POST['text1d2'];
-        echo $_POST['points1d2'];
-        echo $_POST['text1d3'];
-        echo $_POST['points1d3'];
-
-
-        echo $_POST['choice2'];
-
-
-        echo $_POST['text2b1'];
-        echo $_POST['points2b1'];
-        echo $_POST['text2b2'];
-        echo $_POST['points2b2'];
-        echo $_POST['text2b3'];
-        echo $_POST['points2b3'];
-
-        echo $_POST['text2d1'];
-        echo $_POST['points2d1'];
-        echo $_POST['text2d2'];
-        echo $_POST['points2d2'];
-        echo $_POST['text2d3'];
-        echo $_POST['points2d3'];
-
-        $_SESSION['test'] = $_POST['text1b1'];
-      };
-
-      ?>
 
       <br />
       <br />
