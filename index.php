@@ -70,6 +70,12 @@ include "traitement.php";
 
     <center>
 
+      <?php
+      if(isset($erreur)){
+        echo $erreur;
+      }
+      ?>
+
       <form method="post">
 
         <div class="choice" id="choice1">
