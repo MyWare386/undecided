@@ -113,7 +113,7 @@ if(isset($_POST['submit'])){
     };
 
   }else{
-    $erreur = '<i><p style="font-size:15px;color:red">You must fill at least 1 benefit and <br />1 disadvantage for each option.</p></i>';
+    $erreur = '<i><p style="font-size:15px;color:red">You must choose options.</p></i>';
   };
 
 };
