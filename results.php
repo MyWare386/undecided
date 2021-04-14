@@ -163,7 +163,7 @@ if(isset($_SESSION['choice1']) and isset($_SESSION['choice2'])){
       <br />
 
       <footer>
-        <a href="http://localhost/site_choix/index.php"><img src="images/favicon.png" width="5%"/></a>
+        <a href="http://localhost/site_choix/results.php"><img src="images/favicon.png" width="5%"/></a>
         <br />
         <br />
         <a href="http://localhost/site_choix/index.php">Go back to the homepage</a>
