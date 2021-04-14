@@ -6,6 +6,9 @@ For those who are undecided
 
 <br>
 
+News
+----------------------------
+
 How to use
 ---------------------------
 
