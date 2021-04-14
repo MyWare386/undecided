@@ -38,7 +38,15 @@ Installation
 
 You must install WampServer or Mamp and put the files of the website in the <code>www</code> folder.
 
-Then, you have to go in http://localhost/[path_to_the_index.php] in your browser.
+Then, you have to put the URL : http://localhost/[path_to_the_index.php] in your browser.
+
+OR
+
+Just put the URL of the website in your browser. 
+
+-> (the website is not online so far)
+
+<br>
 
 Notes
 ---------------------------
