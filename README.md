@@ -9,10 +9,17 @@ For those who are undecided
 News
 ----------------------------
 
+<br>
+
 How to use
 ---------------------------
 
 Just put the benefits and the disadvantages of your different options and you'll know which choice to make.
+
+<br>
+
+Notes
+---------------------------
 
 <br>
 
