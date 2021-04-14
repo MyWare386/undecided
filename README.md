@@ -31,6 +31,8 @@ Just put the benefits and the disadvantages of your different options and you'll
 Notes
 ---------------------------
 
+- _The website is in english_
+
 <br>
 
 Credits
