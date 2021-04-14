@@ -38,6 +38,8 @@ Installation
 
 You must install WampServer or Mamp and put the files of the website in the <code>www</code> folder.
 
+Then, you have to go in http://localhost/[path_to_the_index.php] in your browser.
+
 Notes
 ---------------------------
 
