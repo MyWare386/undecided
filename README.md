@@ -36,6 +36,8 @@ Just put the benefits and the disadvantages of your different options and you'll
 Installation
 --------------------------
 
+You must install WampServer or Mamp and put the files of the website in the <code>www<code> folder.
+
 Notes
 ---------------------------
 
