@@ -18,6 +18,7 @@ News
 ----------------------------
 
 - 14/04/2021 : _Website is coming soon_
+- 14/04/2021 : _French version is coming soon_
 
 <br>
 
