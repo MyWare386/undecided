@@ -6,6 +6,11 @@ For those who are undecided
 
 <br>
 
+Contents
+----------------------------
+
+<br>
+
 News
 ----------------------------
 
