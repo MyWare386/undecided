@@ -13,6 +13,7 @@ Contents
 - <a href="https://github.com/MyWare386/undecided#news">News</a>
 - <a href="https://github.com/MyWare386/undecided#how-to-use">How to use</a>
 - <a href="https://github.com/MyWare386/undecided#notes">Notes</a>
+- <a href="https://github.com/MyWare386/undecided#credits">Credits</a>
 
 <br>
 
