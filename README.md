@@ -32,6 +32,9 @@ Just put the benefits and the disadvantages of your different options and you'll
 
 <br>
 
+Installation
+--------------------------
+
 Notes
 ---------------------------
 
